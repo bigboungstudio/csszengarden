@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  color: #33DCFE;
+  margin-left: 10px;
+}
+
+h1::after {
+  display: inline-block;
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background: url(https://pbs.twimg.com/profile_images/378800000150126955/88cf42bd19a9d7fd03e41710b5d76eb2_400x400.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.8;
+}
+
+.summary {
+  background: #00BCFD;
+  padding: 20px;
+  width: 100%;
+  height: 140px;
+  color: #000000;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+}
+
+.preamble {
+  color: #000000;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  margin-left: 20px;
+}
+.preamble h3 {
+  color: #0689AE;
+  font-family: "Merriweather", serif;
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.main {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.main h3 {
+  font-family: "Merriweather", serif;
+  font-size: 28px;
+  margin-left: 10px;
+}
+.main p {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+}
+
+.explanation {
+  border-radius: 25px;
+  background-color: #0689AE;
+  padding: 20px;
+  margin-right: 5%;
+}
+
+.participation {
+  border-radius: 25px;
+  background-color: #26B0BF;
+  padding: 20px;
+}
+
+.benefits {
+  border-radius: 25px;
+  background-color: #30BFBF;
+  padding: 20px;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.requirements {
+  border-radius: 25px;
+  background-color: #8DD9CC;
+  padding: 20px;
+  margin-top: 5%;
+}
+
+footer {
+  grid-column: span 2/span 2;
+  background: #02F2F5;
+  width: 100%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
+  border: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  transition-duration: 0.4s;
+}
+
+.zen-validate-html {
+  background-color: #008081;
+}
+
+.zen-validate-html:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  color: black;
+}
+
+.zen-validate-css {
+  background-color: #269A8D;
+}
+
+.zen-validate-css:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  color: black;
+}
+
+.zen-license {
+  background-color: #4DB39A;
+}
+
+.zen-license:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  color: black;
+}
+
+.zen-accessibility {
+  background-color: #73CDA6;
+}
+
+.zen-accessibility:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  color: black;
+}
+
+.zen-github {
+  background-color: #99e6b1c0;
+}
+
+.zen-github:hover {
+  background-color: rgba(255, 255, 255, 0.459);
+  color: black;
+}
+
+.sidebar {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.sidebar h3 {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  margin-left: 40px;
+}
+.sidebar .wrapper {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.design-selection {
+  border-radius: 15px;
+  background-color: #25CFF3;
+  padding: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.design-archives {
+  border-radius: 15px;
+  background-color: #4895FF;
+  padding: 20px;
+  margin-right: 5%;
+}
+
+.zen-resources {
+  border-radius: 15px;
+  background-color: #8357EB;
+  padding: 20px;
+  margin-right: 5%;
+}
+
+/*# sourceMappingURL=style.css.map */
